@@ -1,299 +1,299 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
 }
 
 body {
-    background: #fff;
-    color: #333;
+  background: #fff;
+  color: #333;
 }
 
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 80px;
-    background: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 80px;
+  background: #fff;
 }
 
 nav {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
 }
 
 .logo {
-    font-size: 28px;
-    font-weight: bold;
+  font-size: 28px;
+  font-weight: bold;
 }
 
 .logo span {
-    background: #ff6a00;
-    color: #fff;
-    padding: 5px 10px;
+  background: #ff6a00;
+  color: #fff;
+  padding: 5px 10px;
 }
 
 ul {
-    list-style: none;
-    display: flex;
+  list-style: none;
+  display: flex;
 }
 
 ul li {
-    margin: 0 15px;
+  margin: 0 15px;
 }
 
 ul li a {
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
 }
 
 .cv-btn {
-    background: #ff6a00;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-    cursor: pointer;
-    border-radius: 14px;
+  background: #ff6a00;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 14px;
 }
 
 .hero {
-    display: flex;
-    align-items: center;
-    padding: 50px;
+  display: flex;
+  align-items: center;
+  padding: 50px;
 }
 
 .hero-text {
-    flex: 1;
+  flex: 1;
 }
 
 .hero-img img {
-    width: 350px;
+  width: 350px;
 }
 
 .about {
-    display: flex;
-    align-items: center;
-    padding: 50px;
+  display: flex;
+  align-items: center;
+  padding: 50px;
 }
 
 .skills .progress {
-    width: 100%;
-    background: #ddd;
-    height: 5px;
-    margin: 5px 0;
-    border-radius: 14px;
+  width: 100%;
+  background: #ddd;
+  height: 5px;
+  margin: 5px 0;
+  border-radius: 14px;
 }
 
 .web-bar {
-    height: 5px;
-    background: #ff6a00;
-    width: 80%;
+  height: 5px;
+  background: #ff6a00;
+  width: 80%;
 }
 .app-bar {
-    height: 5px;
-    background: #ff6a00;
-    width: 50%;
+  height: 5px;
+  background: #ff6a00;
+  width: 50%;
 }
 .graphic-bar {
-    height: 5px;
-    background: #ff6a00;
-    width: 30%;
+  height: 5px;
+  background: #ff6a00;
+  width: 30%;
 }
 
 .services {
-    text-align: center;
-    padding: 50px;
+  text-align: center;
+  padding: 50px;
 }
 
 .service-container {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 
 .service-card {
-    padding: 20px;
-    background: #f3f3f3;
-    border-radius: 10px;
-    width: 250px;
-    font-weight: bold;
+  padding: 20px;
+  background: #f3f3f3;
+  border-radius: 10px;
+  width: 250px;
+  font-weight: bold;
 }
 
 .projects {
-    text-align: center;
-    padding: 50px 10%;
+  text-align: center;
+  padding: 50px 10%;
 }
 
 .filters {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
 }
 
 .project-gallery {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
 .contact {
-    text-align: center;
-    padding: 50px;
-    background: #f9f9f9;
+  text-align: center;
+  padding: 50px;
+  background: #f9f9f9;
 }
 
 footer {
-    text-align: center;
-    padding: 30px;
-    background: #333;
-    color: white;
+  text-align: center;
+  padding: 30px;
+  background: #333;
+  color: white;
 }
-.highlight{
-    color: #ff6a00;
-    font-size: 32px;
+.highlight {
+  color: #ff6a00;
+  font-size: 32px;
 }
-.maintext{
-    font-size: 100px;
-    color: #000000;
+.maintext {
+  font-size: 100px;
+  color: #000000;
 }
-.lowertext{
-    font-size: 100px;
-    color: #000000;
-    position: relative;
-    left: 250px;
+.lowertext {
+  font-size: 100px;
+  color: #000000;
+  position: relative;
+  left: 250px;
 }
-.hero-text p{
-    color: #000000;
-    font-size: 21px;
-    width: 50vw;
+.hero-text p {
+  color: #000000;
+  font-size: 21px;
+  width: 50vw;
 }
-.hire-btn{
-    background: #ff6a00;
-    color: white;
-    padding: 10px 15px;
-    width: 120px;
-    border: none;
-    cursor: pointer;
-    border-radius: 14px;
+.hire-btn {
+  background: #ff6a00;
+  color: white;
+  padding: 10px 15px;
+  width: 120px;
+  border: none;
+  cursor: pointer;
+  border-radius: 14px;
 }
-.about-text h2{
-    font-size: 65px;
-    color: #000000;
+.about-text h2 {
+  font-size: 65px;
+  color: #000000;
 }
-.about-para{
-    font-size: 21px;
-    color: black;
+.about-para {
+  font-size: 21px;
+  color: black;
 }
-.services h2{
-    color: black;
-    font-size: 65px;
+.services h2 {
+  color: black;
+  font-size: 65px;
 }
-.services-para{
-    color: black;
-    font-size: 21px;
-    width: 50vw;
-    margin: 0 auto;
-    text-align: center;
+.services-para {
+  color: black;
+  font-size: 21px;
+  width: 50vw;
+  margin: 0 auto;
+  text-align: center;
 }
-.service-card .pp{
-    color: black;
-    font-size: 19px;
-    font-weight: 200;
+.service-card .pp {
+  color: black;
+  font-size: 19px;
+  font-weight: 200;
 }
-.service-card .title{
-    color: black;
-    font-size: 32px;
+.service-card .title {
+  color: black;
+  font-size: 32px;
 }
-.projects h3{
-    color: black;
-    font-size: 65px;
+.projects h3 {
+  color: black;
+  font-size: 65px;
 }
-.projects p{
-    color: black;
-    font-size: 21px;
-    text-align: center;
-    margin: 0 auto;
-    width: 50vw;
+.projects p {
+  color: black;
+  font-size: 21px;
+  text-align: center;
+  margin: 0 auto;
+  width: 50vw;
 }
 .project-card {
-    width: 30%;
-    text-align: center;
-    background-color: #f8f8f8;
-    padding: 15px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    height: auto;
-    max-height: 550px;
+  width: 30%;
+  text-align: center;
+  background-color: #f8f8f8;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: auto;
+  max-height: 550px;
 }
 
 .project-card:nth-child(even) {
-    flex-direction: row-reverse;
+  flex-direction: row-reverse;
 }
 
 .project-card img {
-    width: 100%;
-    height: auto;
-    max-height: 500px;
-    border-radius: 10px;
+  width: 100%;
+  height: auto;
+  max-height: 500px;
+  border-radius: 10px;
 }
 
 .project-info {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 .project-info h3 {
-    font-size: 20px;
-    margin-bottom: 5px;
+  font-size: 20px;
+  margin-bottom: 5px;
 }
 
 .project-info p {
-    font-size: 16px;
-    color: #000000;
-    padding: 5px;
-    word-wrap: break-word;
-    width: 25vw;
-    margin: 0 auto;
+  font-size: 16px;
+  color: #000000;
+  padding: 5px;
+  word-wrap: break-word;
+  width: 25vw;
+  margin: 0 auto;
 }
-.contact h2{
-    color: black;
-    font-size: 65px;
+.contact h2 {
+  color: black;
+  font-size: 65px;
 }
-.contact p{
-    color: black;
-    font-size: 21px;
-    text-align: center;
-    margin: 0 auto;
-    width: 50vw;
+.contact p {
+  color: black;
+  font-size: 21px;
+  text-align: center;
+  margin: 0 auto;
+  width: 50vw;
 }
-.contact input{
-    border-radius: 14px;
-    width: 600px;
-    height: 50px;
-    font-size: 21px;
-    padding: 10px 15px;
+.contact input {
+  border-radius: 14px;
+  width: 600px;
+  height: 50px;
+  font-size: 21px;
+  padding: 10px 15px;
 }
-.contact button{
-    background: #ff6a00;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-    cursor: pointer;
-    border-radius: 14px;
-    height: 40px;
+.contact button {
+  background: #ff6a00;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 14px;
+  height: 40px;
 }
-.align{
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    align-items: center;
-    justify-content: center;
+.align {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
 }
